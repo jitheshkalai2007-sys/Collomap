@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7f2">
+    <title>CollegeFinder — Find your next chapter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="CollegeFinder home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span>college<span class="brand-light">finder</span></span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a class="nav-active" href="#find">Find colleges</a>
+        <a href="#how-it-works">How it works</a>
+      </nav>
+      <a class="nav-cta" href="#find">Start exploring <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="find">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR FUTURE, BETTER FOUND</div>
+          <h1>The right college<br>changes <span>everything.</span></h1>
+          <p class="hero-description">Tell us what matters to you. We’ll help you find colleges that fit your marks, your course, and your next big idea.</p>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>R</span><span>A</span><span>M</span></div>
+            <span>A clearer way to choose what’s next</span>
+          </div>
+        </div>
+
+        <div class="search-card">
+          <div class="card-heading">
+            <div>
+              <span class="step-label">YOUR COLLEGE MATCH</span>
+              <h2>Let’s find your fit</h2>
+            </div>
+            <div class="card-icon" aria-hidden="true">✳</div>
+          </div>
+          <p class="form-intro">A few details help us find a good place to start.</p>
+          <form id="search-form">
+            <div class="form-row">
+              <label class="field">
+                <span>Your name</span>
+                <input name="name" type="text" placeholder="e.g. Alex" autocomplete="given-name" required maxlength="80">
+              </label>
+              <label class="field">
+                <span>Your city</span>
+                <input name="city" type="text" placeholder="e.g. Bengaluru" autocomplete="address-level2" required maxlength="100">
+              </label>
+            </div>
+            <label class="field course-field">
+              <span>What would you like to study?</span>
+              <select name="course" required>
+                <option value="" disabled selected>Choose a course</option>
+              </select>
+            </label>
+            <div class="form-row marks-row">
+              <label class="field">
+                <span>10th grade marks</span>
+                <div class="input-suffix"><input name="marks10" type="number" min="0" max="100" step="0.01" placeholder="85" required><span>%</span></div>
+              </label>
+              <label class="field">
+                <span>12th grade marks</span>
+                <div class="input-suffix"><input name="marks12" type="number" min="0" max="100" step="0.01" placeholder="90" required><span>%</span></div>
+              </label>
+            </div>
+            <button class="submit-button" type="submit">Find my colleges <span aria-hidden="true">→</span></button>
+            <p class="privacy-note" id="form-status" role="status"><span aria-hidden="true">⌑</span> Loading the college directory…</p>
+          </form>
+        </div>
+        <div class="hero-orb orb-one" aria-hidden="true"></div>
+        <div class="hero-orb orb-two" aria-hidden="true"></div>
+      </section>
+
+      <section class="results-section" id="results" aria-live="polite" hidden>
+        <div class="results-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR SHORTLIST</div>
+            <h2 id="results-title">A few places to start</h2>
+            <p id="results-summary"></p>
+          </div>
+          <span class="results-count" id="results-count"></span>
+        </div>
+        <div class="demo-notice"><span aria-hidden="true">ⓘ</span> Fee figures are shown with their program/category and academic year where published; other fees vary. Always confirm current tuition and admission eligibility with the official institution.</div>
+        <div class="results-grid" id="results-grid"></div>
+      </section>
+
+      <section class="fest-section" aria-labelledby="fest-title">
+        <div class="fest-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> CAMPUS LIFE, IN FULL COLOR</div>
+            <h2 id="fest-title">Make room for <span>the fun stuff.</span></h2>
+          </div>
+          <p>College is more than a classroom. Here’s an illustrative look at the shows, celebrations, and late-night memories campus festivals can bring.</p>
+        </div>
+        <div class="fest-gallery">
+          <figure class="fest-photo fest-photo-large">
+            <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="A crowd enjoying a live music performance" loading="lazy">
+            <figcaption><span>THE BIG NIGHT</span><strong>Lights up. Volume up.</strong></figcaption>
+          </figure>
+          <figure class="fest-photo">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Friends gathering at an outdoor event" loading="lazy">
+            <figcaption><span>MEET YOUR PEOPLE</span><strong>Find your crowd.</strong></figcaption>
+          </figure>
+          <figure class="fest-photo">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A festival stage glowing with colorful lights" loading="lazy">
+            <figcaption><span>ALL TOGETHER</span><strong>Make it a memory.</strong></figcaption>
+          </figure>
+        </div>
+        <p class="image-credit">Illustrative festival photos via <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>; not photos of the listed colleges.</p>
+      </section>
+
+      <section class="how-section" id="how-it-works">
+        <div class="how-intro">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE LESS OVERWHELMING</div>
+          <h2>Big decisions.<br><span>Clearer next steps.</span></h2>
+        </div>
+        <div class="how-steps">
+          <article class="how-step"><span class="step-number">01</span><div><h3>Start with you</h3><p>Share your marks, the course you’re curious about, and where you’re coming from.</p></div></article>
+          <article class="how-step"><span class="step-number">02</span><div><h3>See what fits</h3><p>Explore a shortlist based on eligibility, college ratings, and the things that matter day to day.</p></div></article>
+          <article class="how-step"><span class="step-number">03</span><div><h3>Explore further</h3><p>Check locations and compare your options. Your next chapter starts with a first look.</p></div></article>
+        </div>
+      </section>
+      <section class="bottom-banner">
+        <div class="banner-sparkle" aria-hidden="true">✳</div>
+        <div><span>YOU DON’T HAVE TO HAVE IT ALL FIGURED OUT</span><h2>Just take the first step.</h2></div>
+        <a href="#find">Find your fit <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+    <footer><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span>college<span class="brand-light">finder</span></span></a><span>Explore what’s next, one step at a time.</span><span>CollegeFinder demo</span></footer>
+  </body>
+</html>

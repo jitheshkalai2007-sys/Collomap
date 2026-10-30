@@ -1,0 +1,441 @@
+[
+  {
+    "id": "iit-bombay",
+    "name": "Indian Institute of Technology Bombay",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "type": "PUBLIC INSTITUTE",
+    "address": "Powai, Mumbai 400076, Maharashtra, India",
+    "overview": "A public technical institute in Powai. Its official contact page lists the institute board line and separate examination office contacts.",
+    "programs": ["Computer Science", "Mechanical Engineering", "Business Administration"],
+    "website": "https://www.iitb.ac.in/",
+    "contactSource": "https://www.iitb.ac.in/contact-us",
+    "programSource": "https://www.iitb.ac.in/",
+    "fees": {
+      "summary": "Fees depend on program, admission year, and student category. Check the institute for the applicable current schedule.",
+      "period": "Program-specific",
+      "source": "https://www.iitb.ac.in/"
+    },
+    "contacts": [
+      { "designation": "Institute board line", "phone": "+91 (22) 2572 2545" },
+      { "designation": "JEE Office", "phone": "+91 (22) 2576 4063" }
+    ]
+  },
+  {
+    "id": "iit-hyderabad",
+    "name": "Indian Institute of Technology Hyderabad",
+    "city": "Sangareddy",
+    "state": "Telangana",
+    "country": "India",
+    "type": "PUBLIC INSTITUTE",
+    "address": "Kandi, Sangareddy 502284, Telangana, India",
+    "overview": "A public technical institute in Telangana. The institute publishes semester-wise fee schedules and separate schedules for foreign-national students.",
+    "programs": ["Computer Science", "Engineering", "Mechanical Engineering"],
+    "website": "https://www.iith.ac.in/",
+    "contactSource": "https://www.iith.ac.in/contact/",
+    "programSource": "https://www.iith.ac.in/academics/",
+    "fees": {
+      "summary": "Semester fees vary by course, cohort, and student category. See the institute's current semester-wise schedule before applying.",
+      "period": "July-December 2026 schedule",
+      "source": "https://www.iith.ac.in/academics/fee-structure/"
+    },
+    "contacts": []
+  },
+  {
+    "id": "mahe-manipal",
+    "name": "Manipal Academy of Higher Education",
+    "city": "Manipal",
+    "state": "Karnataka",
+    "country": "India",
+    "type": "PRIVATE DEEMED UNIVERSITY",
+    "address": "Madhav Nagar, Manipal 576104, Karnataka, India",
+    "overview": "A private deemed university in Manipal. Its 2026 admissions fee page links separate general-category, foreign/NRI, and hostel fee schedules.",
+    "programs": ["Computer Science", "Engineering", "Business Administration", "Medicine"],
+    "website": "https://www.manipal.edu/",
+    "contactSource": "https://www.manipal.edu/mu/contact-us.html",
+    "programSource": "https://www.manipal.edu/mu/admission.html",
+    "fees": {
+      "summary": "2026-27 fees vary by program and student category. The official page provides separate general, foreign/NRI, and hostel schedules.",
+      "period": "2026-27 admission schedules",
+      "source": "https://www.manipal.edu/mu/admission/fees.html"
+    },
+    "contacts": []
+  },
+  {
+    "id": "mit-cambridge",
+    "name": "Massachusetts Institute of Technology",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "country": "United States",
+    "type": "PRIVATE RESEARCH UNIVERSITY",
+    "address": "77 Massachusetts Avenue, Cambridge, MA 02139, United States",
+    "overview": "A private research university in Cambridge, Massachusetts. MIT publishes a yearly undergraduate cost-of-attendance budget and need-based financial aid information.",
+    "programs": ["Computer Science", "Engineering", "Business Administration", "Science"],
+    "website": "https://www.mit.edu/",
+    "contactSource": "https://www.mit.edu/contact/",
+    "programSource": "https://catalog.mit.edu/degree-charts/",
+    "fees": {
+      "summary": "2026-27 undergraduate tuition: US$66,720/year. MIT's estimated total cost of attendance is US$92,760/year before financial aid, including housing, food, and other costs.",
+      "period": "2026-27 academic year",
+      "source": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/coa/"
+    },
+    "contacts": []
+  },
+  {
+    "id": "oxford",
+    "name": "University of Oxford",
+    "city": "Oxford",
+    "state": "England",
+    "country": "United Kingdom",
+    "type": "PUBLIC RESEARCH UNIVERSITY",
+    "address": "Oxford, OX1 2JD, United Kingdom",
+    "overview": "A public research university in Oxford. Undergraduate course fees vary by fee status and course; overseas tuition is published separately from living costs.",
+    "programs": ["Computer Science", "Engineering", "Business Administration", "Science", "Psychology"],
+    "website": "https://www.ox.ac.uk/",
+    "contactSource": "https://www.ox.ac.uk/contact-us",
+    "programSource": "https://www.ox.ac.uk/admissions/undergraduate/courses-listing",
+    "fees": {
+      "summary": "For 2027 entry, overseas undergraduate course fees range from £39,620 to £66,580/year; clinical medicine may be higher. Living costs are additional.",
+      "period": "2027 entry / 2027-28",
+      "source": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/course-fees"
+    },
+    "contacts": []
+  },
+  {
+    "id": "cambridge",
+    "name": "University of Cambridge",
+    "city": "Cambridge",
+    "state": "England",
+    "country": "United Kingdom",
+    "type": "PUBLIC RESEARCH UNIVERSITY",
+    "address": "The Old Schools, Trinity Lane, Cambridge CB2 1TN, United Kingdom",
+    "overview": "A public research university in Cambridge. International tuition varies by course, with an additional annual College fee and living costs.",
+    "programs": ["Computer Science", "Engineering", "Business Administration", "Science", "Psychology"],
+    "website": "https://www.cam.ac.uk/",
+    "contactSource": "https://www.cam.ac.uk/about-the-university/contact",
+    "programSource": "https://www.undergraduate.study.cam.ac.uk/courses",
+    "fees": {
+      "summary": "For 2027 entry, Computer Science and Engineering tuition is £46,872/year for international students. College fees and living costs are additional; other course tuition differs.",
+      "period": "2027 entry",
+      "source": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs"
+    },
+    "contacts": []
+  },
+  {
+    "id": "iisc-bengaluru",
+    "name": "Indian Institute of Science",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "type": "PUBLIC INSTITUTE",
+    "address": "CV Raman Road, Bengaluru 560012, Karnataka, India",
+    "overview": "A public research institute in Bengaluru. Its contact page publishes a general contact line and a separate International Relations / admissions contact.",
+    "programs": ["Computer Science", "Engineering", "Science"],
+    "website": "https://iisc.ac.in/",
+    "contactSource": "https://iisc.ac.in/contact-us/",
+    "programSource": "https://iisc.ac.in/admissions/",
+    "fees": {
+      "summary": "Fees depend on program and admission category. Check the official admissions pages for current fees.",
+      "period": "Program-specific",
+      "source": "https://iisc.ac.in/admissions/"
+    },
+    "contacts": [
+      { "designation": "General contact", "phone": "+91 80 2293 2228" },
+      { "designation": "International Relations / admissions", "phone": "+91 80 2293 2560" }
+    ]
+  },
+  {
+    "id": "nitt-trichy",
+    "name": "National Institute of Technology Tiruchirappalli",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "type": "PUBLIC INSTITUTE",
+    "address": "Tanjore Main Road, Tiruchirappalli 620015, Tamil Nadu, India",
+    "overview": "A public technical institute in Tiruchirappalli. Its official contact page links the internal telephone directory; the main line is masked on that page.",
+    "programs": ["Computer Science", "Mechanical Engineering", "Business Administration"],
+    "website": "https://www.nitt.edu/",
+    "contactSource": "https://www.nitt.edu/home/contact/",
+    "programSource": "https://www.nitt.edu/home/academics/",
+    "fees": {
+      "summary": "B.Tech, 2026 admission (Open/Open-EWS/OBC-NCL/ICCR/DASA-CIWG): ₹62,500 tuition per semester; listed first-semester total ₹1,25,550 including one-time charges. Other categories and semester totals differ.",
+      "period": "2026 B.Tech entrants",
+      "source": "https://www.nitt.edu/home/academics/fees_section/ug_courses_fee_structure/B.Tech%202026.pdf"
+    },
+    "contacts": []
+  },
+  {
+    "id": "vit-vellore",
+    "name": "Vellore Institute of Technology",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "type": "PRIVATE DEEMED UNIVERSITY",
+    "address": "VIT, Vellore 632014, Tamil Nadu, India",
+    "overview": "A private deemed university in Vellore. The official contact page provides the institution's contact directory as a document.",
+    "programs": ["Computer Science", "Mechanical Engineering", "Business Administration"],
+    "website": "https://vit.ac.in/",
+    "contactSource": "https://vit.ac.in/contact-us",
+    "programSource": "https://vit.ac.in/programmes-offered-2025-26",
+    "fees": {
+      "summary": "International integrated programs: M.Tech tuition US$5,500/year plus US$100 caution deposit; M.Sc tuition US$3,450/year plus US$50 deposit. This is not the domestic B.Tech fee.",
+      "period": "Published international integrated-program schedule",
+      "source": "https://vit.ac.in/fee-structure-integrated-program-international-admissions"
+    },
+    "contacts": []
+  },
+  {
+    "id": "anna-university-chennai",
+    "name": "Anna University",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "type": "PUBLIC UNIVERSITY",
+    "address": "Sardar Patel Road, Guindy, Chennai 600025, Tamil Nadu, India",
+    "overview": "A major public engineering and research university in Chennai with a wide range of undergraduate, postgraduate, and professional programs.",
+    "programs": ["Engineering", "Computer Science", "Mechanical Engineering", "Business Administration", "M.B.A"],
+    "website": "https://www.annauniv.edu/",
+    "contactSource": "https://www.annauniv.edu/contactus.php",
+    "programSource": "https://www.annauniv.edu/department/",
+    "fees": {
+      "summary": "Tamil Nadu state quota and category-specific tuition varies by course and program. Published fee schedules are issued by the university and counseling authorities each admission cycle.",
+      "period": "Admission-cycle specific",
+      "source": "https://www.annauniv.edu/"
+    },
+    "contacts": [
+      { "designation": "Registrar Office", "phone": "+91 44 2235 8561" },
+      { "designation": "Dean, Admissions", "phone": "+91 44 2235 7766" }
+    ]
+  },
+  {
+    "id": "loyola-college-chennai",
+    "name": "Loyola College Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "type": "AUTONOMOUS ARTS & SCIENCE COLLEGE",
+    "address": "Nungambakkam, Chennai 600034, Tamil Nadu, India",
+    "overview": "A well-known autonomous college in Chennai offering arts, science, commerce, and management programs with a strong academic reputation.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A"],
+    "website": "https://www.loyolacollege.edu/",
+    "contactSource": "https://www.loyolacollege.edu/contact-us",
+    "programSource": "https://www.loyolacollege.edu/programmes",
+    "fees": {
+      "summary": "Undergraduate fee ranges vary by course, category, and specialization. Students should confirm the current annual tuition and lab fees on the official admissions portal.",
+      "period": "Annual fee structure",
+      "source": "https://www.loyolacollege.edu/admissions"
+    },
+    "contacts": [
+      { "designation": "Principal Office", "phone": "+91 44 2817 8200" },
+      { "designation": "Dean of Arts & Science", "phone": "+91 44 2817 8210" }
+    ]
+  },
+  {
+    "id": "madras-christian-college",
+    "name": "Madras Christian College",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "type": "AUTONOMOUS ARTS & SCIENCE COLLEGE",
+    "address": "East Tambaram, Chennai 600059, Tamil Nadu, India",
+    "overview": "A historic autonomous arts and science college in Chennai known for liberal arts, science, commerce, and research-based programs.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A"],
+    "website": "https://mcc.edu.in/",
+    "contactSource": "https://mcc.edu.in/contact",
+    "programSource": "https://mcc.edu.in/academics/undergraduate-programs",
+    "fees": {
+      "summary": "Course and category-specific tuition is published each academic year. Students should review the official annual fee sheet before payment and admission confirmation.",
+      "period": "Annual academic fee sheet",
+      "source": "https://mcc.edu.in/admissions"
+    },
+    "contacts": [
+      { "designation": "Principal Office", "phone": "+91 44 2239 5137" },
+      { "designation": "Admissions Office", "phone": "+91 44 2239 5217" }
+    ]
+  },
+  {
+    "id": "st-josephs-college-trichy",
+    "name": "St. Joseph's College Tiruchirappalli",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "type": "AUTONOMOUS ARTS & SCIENCE COLLEGE",
+    "address": "Trichy 620002, Tamil Nadu, India",
+    "overview": "An established arts and science college in Tiruchirappalli offering commerce, mathematics, life sciences, and humanities programs.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A"],
+    "website": "https://www.sjctni.edu/",
+    "contactSource": "https://www.sjctni.edu/contact-us",
+    "programSource": "https://www.sjctni.edu/programmes",
+    "fees": {
+      "summary": "Fee structures differ by course, year of study, and scholarship category. The official admissions page should be checked for current annual tuition and lab charges.",
+      "period": "Current academic year",
+      "source": "https://www.sjctni.edu/admissions"
+    },
+    "contacts": [
+      { "designation": "Principal Office", "phone": "+91 431 2700 355" },
+      { "designation": "Admissions Office", "phone": "+91 431 2700 378" }
+    ]
+  },
+  {
+    "id": "psg-tech-coimbatore",
+    "name": "PSG College of Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "type": "PRIVATE ENGINEERING COLLEGE",
+    "address": "Peelamedu, Coimbatore 641004, Tamil Nadu, India",
+    "overview": "A leading private engineering institution in Coimbatore with strong engineering, technology, and management offerings.",
+    "programs": ["Engineering", "Computer Science", "Mechanical Engineering", "M.B.A"],
+    "website": "https://www.psgtech.edu/",
+    "contactSource": "https://www.psgtech.edu/contact.php",
+    "programSource": "https://www.psgtech.edu/academics.php",
+    "fees": {
+      "summary": "Engineering and management tuition is updated by program and admission category. Check the official fee schedule for the current academic year before confirming enrollment.",
+      "period": "Annual / semester fee schedule",
+      "source": "https://www.psgtech.edu/fees.php"
+    },
+    "contacts": [
+      { "designation": "Principal Office", "phone": "+91 422 4345 000" },
+      { "designation": "Admissions Office", "phone": "+91 422 4345 011" }
+    ]
+  },
+  {
+    "id": "christ-university-bengaluru",
+    "name": "Christ University",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "type": "PRIVATE UNIVERSITY",
+    "address": "Hosur Road, Bengaluru 560029, Karnataka, India",
+    "overview": "A prominent private university in Bengaluru offering a broad mix of arts, science, commerce, and management education.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A", "Engineering"],
+    "website": "https://christuniversity.in/",
+    "contactSource": "https://christuniversity.in/contact-us",
+    "programSource": "https://christuniversity.in/programmes",
+    "fees": {
+      "summary": "Undergraduate and postgraduate tuition varies by school, course, and mode of study. Refer to official brochures and semester fee statements for the latest published amount.",
+      "period": "Programwise annual fees",
+      "source": "https://christuniversity.in/fee-structure"
+    },
+    "contacts": [
+      { "designation": "Registrar Office", "phone": "+91 80 4012 9000" },
+      { "designation": "Dean, Admissions", "phone": "+91 80 4012 9100" }
+    ]
+  },
+  {
+    "id": "symbiosis-pune",
+    "name": "Symbiosis International University",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "type": "PRIVATE UNIVERSITY",
+    "address": "Symbiosis Road, Lavale, Pune 412115, Maharashtra, India",
+    "overview": "A major private university in Pune with strong management, liberal arts, sciences, and commerce cohorts.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A"],
+    "website": "https://siu.edu.in/",
+    "contactSource": "https://siu.edu.in/contact-us",
+    "programSource": "https://siu.edu.in/programmes",
+    "fees": {
+      "summary": "Course fees are announced in each admission cycle and vary by program, campus, and residency category. Check the official fee page before confirming enrollment.",
+      "period": "Admission-cycle specific",
+      "source": "https://siu.edu.in/fee-structure"
+    },
+    "contacts": [
+      { "designation": "Admissions Office", "phone": "+91 20 2655 4600" },
+      { "designation": "Dean, MBA Admissions", "phone": "+91 20 2655 4700" }
+    ]
+  },
+  {
+    "id": "miranda-house-delhi",
+    "name": "Miranda House, University of Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "type": "PUBLIC WOMEN'S COLLEGE",
+    "address": "University of Delhi, Delhi 110007, India",
+    "overview": "A prestigious college of the University of Delhi with strength in humanities, sciences, and commerce education.",
+    "programs": ["B.A", "B.Sc", "B.Com"],
+    "website": "https://www.mirandahouse.ac.in/",
+    "contactSource": "https://www.mirandahouse.ac.in/contact-us",
+    "programSource": "https://www.mirandahouse.ac.in/academics",
+    "fees": {
+      "summary": "University and college fee components vary by program, academic year, and student category. Check the current college fee notice each year before admission.",
+      "period": "Annual college fee notice",
+      "source": "https://www.mirandahouse.ac.in/admissions"
+    },
+    "contacts": [
+      { "designation": "Principal Office", "phone": "+91 11 2766 7217" },
+      { "designation": "Admissions Desk", "phone": "+91 11 2766 7236" }
+    ]
+  },
+  {
+    "id": "university-of-toronto",
+    "name": "University of Toronto",
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada",
+    "type": "PUBLIC RESEARCH UNIVERSITY",
+    "address": "27 King's College Circle, Toronto, ON M5S 1A1, Canada",
+    "overview": "A leading Canadian university offering wide-ranging undergraduate and graduate programs, including the arts, sciences, commerce, and management fields.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A"],
+    "website": "https://www.utoronto.ca/",
+    "contactSource": "https://www.utoronto.ca/about-u-of-t",
+    "programSource": "https://future.utoronto.ca/",
+    "fees": {
+      "summary": "Domestic and international tuition varies by program, faculty, and year of study. International students should check the official fee calculator and annual budgeting page before applying.",
+      "period": "Current academic year",
+      "source": "https://future.utoronto.ca/tuition-fees/"
+    },
+    "contacts": [
+      { "designation": "Undergraduate Admissions", "phone": "+1 (416) 978-2190" },
+      { "designation": "Dean's Office, Rotman", "phone": "+1 (416) 946-3275" }
+    ]
+  },
+  {
+    "id": "university-of-melbourne",
+    "name": "University of Melbourne",
+    "city": "Melbourne",
+    "state": "Victoria",
+    "country": "Australia",
+    "type": "PUBLIC RESEARCH UNIVERSITY",
+    "address": "Parkville, Melbourne VIC 3010, Australia",
+    "overview": "A globally ranked Australian university with strong arts, science, commerce, and business programs for undergraduate and graduate students.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A"],
+    "website": "https://www.unimelb.edu.au/",
+    "contactSource": "https://about.unimelb.edu.au/contact",
+    "programSource": "https://study.unimelb.edu.au/",
+    "fees": {
+      "summary": "Tuition and student contribution fees vary by subject area and residency. International student fee pages should be reviewed before application and enrolment.",
+      "period": "Annual fee schedule",
+      "source": "https://study.unimelb.edu.au/how-to-apply/fees"
+    },
+    "contacts": [
+      { "designation": "Admissions Enquiry", "phone": "+61 3 9035 5511" },
+      { "designation": "Business School Dean's Office", "phone": "+61 3 8344 1111" }
+    ]
+  },
+  {
+    "id": "university-of-manchester",
+    "name": "University of Manchester",
+    "city": "Manchester",
+    "state": "England",
+    "country": "United Kingdom",
+    "type": "PUBLIC RESEARCH UNIVERSITY",
+    "address": "Oxford Road, Manchester M13 9PL, United Kingdom",
+    "overview": "A leading UK university with strong humanities, science, commerce, and international business education.",
+    "programs": ["B.A", "B.Sc", "B.Com", "M.B.A"],
+    "website": "https://www.manchester.ac.uk/",
+    "contactSource": "https://www.manchester.ac.uk/about/contact-us/",
+    "programSource": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+    "fees": {
+      "summary": "International fee levels depend on the course and academic year. Students should review the relevant course page and annual tuition schedule before committing to a program.",
+      "period": "Academic-year specific tuition",
+      "source": "https://www.manchester.ac.uk/study/undergraduate/fees-and-funding/"
+    },
+    "contacts": [
+      { "designation": "Student Admissions", "phone": "+44 161 306 6000" },
+      { "designation": "Dean of Science Office", "phone": "+44 161 306 6300" }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "Collegefinder",
+  "version": "1.0.0",
+  "description": "CollegeFinder browser prototype and Java JDBC starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --check index.js && node --check app.js"
+  },
+  "private": true
+}
